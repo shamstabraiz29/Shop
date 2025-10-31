@@ -124,7 +124,7 @@
         <SectionBadge text="Company Spirit" />
       </div>
       <h2
-        class="text-4xl lg:text-5xl font-extrabold text-secondary text-center mb-16 tracking-tight drop-shadow-sm"
+        class="text-3xl lg:text-5xl font-extrabold text-secondary text-center mb-16 tracking-tight drop-shadow-sm"
       >
         Our Values
       </h2>
