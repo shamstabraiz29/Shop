@@ -34,6 +34,16 @@
     bgPos = `${x}% ${y}%`;
   }
 
+  function onTouchMove(e: TouchEvent) {
+    if (!zoomEl || e.touches.length === 0) return;
+    e.preventDefault();
+    const touch = e.touches[0];
+    const rect = zoomEl.getBoundingClientRect();
+    const x = ((touch.clientX - rect.left) / rect.width) * 100;
+    const y = ((touch.clientY - rect.top) / rect.height) * 100;
+    bgPos = `${x}% ${y}%`;
+  }
+
   // Disable background scroll when modal is open
   let previousBodyOverflow: string | null = null;
   $: {
@@ -80,11 +90,12 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-0">
           <div class="relative">
             <div
-              class="h-80 lg:h-128 bg-gray-100"
+              class="h-80 lg:h-128 bg-gray-100 touch-none"
               bind:this={zoomEl}
               role="img"
               aria-label={title}
               on:mousemove={onMove}
+              on:touchmove={onTouchMove}
               style={`background-image: url('${image}'); background-size: 180%; background-position: ${bgPos}; background-repeat: no-repeat;`}
             >
               <img
