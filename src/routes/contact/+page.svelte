@@ -19,10 +19,10 @@
 </script>
 
 <svelte:head>
-  <title>Contact Us - ETHKL</title>
+  <title>Contact Us - Ahmad</title>
   <meta
     name="description"
-    content="Get in touch with ETHKL customer service. We're here to help with any questions about our fashion products."
+    content="Get in touch with Ahmad customer service. We're here to help with any questions about our fashion products."
   />
 </svelte:head>
 
@@ -66,8 +66,8 @@
               icon={Mail}
               title="Email Us"
               description="For general inquiries and support"
-              linkHref="mailto:hello@ethkl.com"
-              linkText="hello@ethkl.com"
+              linkHref="mailto:hello@ahmad.com"
+              linkText="hello@ahmad.com"
               iconBgClass="bg-linear-to-br from-primary to-secondary"
             />
 
@@ -99,22 +99,22 @@
         <SocialLinks
           items={[
             {
-              href: 'https://instagram.com/ethkl',
+              href: 'https://instagram.com/ahmad',
               label: 'Instagram',
               icon: Instagram,
             },
             {
-              href: 'https://twitter.com/ethkl',
+              href: 'https://twitter.com/ahmad',
               label: 'Twitter',
               icon: Twitter,
             },
             {
-              href: 'https://facebook.com/ethkl',
+              href: 'https://facebook.com/ahmad',
               label: 'Facebook',
               icon: Facebook,
             },
             {
-              href: 'https://pinterest.com/ethkl',
+              href: 'https://pinterest.com/ahmad',
               label: 'Pinterest',
               icon: Pin,
             },

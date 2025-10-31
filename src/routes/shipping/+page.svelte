@@ -48,10 +48,10 @@
 </script>
 
 <svelte:head>
-  <title>Shipping & Returns - ETHKL</title>
+  <title>Shipping & Returns - Ahmad</title>
   <meta
     name="description"
-    content="Learn about ETHKL's shipping options, delivery times, and return policy. Free shipping on orders over $75."
+    content="Learn about Ahmad's shipping options, delivery times, and return policy. Free shipping on orders over $75."
   />
 </svelte:head>
 
@@ -63,7 +63,7 @@
         Shipping & Returns
       </h1>
       <p class="text-lg text-white/90 text-center mt-4 max-w-2xl mx-auto">
-        Everything you need to know about shipping and returns at ETHKL
+        Everything you need to know about shipping and returns at Ahmad
       </p>
     </div>
   </section>
@@ -189,7 +189,7 @@
                 Delivered
               </h3>
               <p class="text-gray-600">
-                Your order arrives at your doorstep. Enjoy your new ETHKL
+                Your order arrives at your doorstep. Enjoy your new Ahmad
                 pieces!
               </p>
             </div>
@@ -250,7 +250,7 @@
     }}
     secondaryButton={{
       label: 'Email Support',
-      href: 'mailto:support@ethkl.com',
+      href: 'mailto:support@ahmad.com',
       variant: 'outline',
       size: 'md',
     }}

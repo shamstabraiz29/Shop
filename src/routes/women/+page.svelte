@@ -106,10 +106,10 @@
 </script>
 
 <svelte:head>
-  <title>Pakistani Women's Dresses - ETHKL</title>
+  <title>Pakistani Women's Dresses - Ahmad</title>
   <meta
     name="description"
-    content="Shop authentic Pakistani women's dresses at ETHKL — lawn, chiffon, pret (ready-to-wear), unstitched suits, kurtis, bridal & party wear. Nationwide delivery in Pakistan."
+    content="Shop authentic Pakistani women's dresses at Ahmad — lawn, chiffon, pret (ready-to-wear), unstitched suits, kurtis, bridal & party wear. Nationwide delivery in Pakistan."
   />
 </svelte:head>
 

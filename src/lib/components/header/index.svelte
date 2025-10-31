@@ -67,7 +67,7 @@
   >
     <div class="shrink-0">
       <h1 class="text-2xl lg:text-3xl font-bold text-secondary tracking-tight">
-        ETHKL
+        <a href="/" class="no-underline">Ahmad</a>
       </h1>
     </div>
 

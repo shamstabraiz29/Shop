@@ -16,10 +16,10 @@
 </script>
 
 <svelte:head>
-  <title>Login - ETHKL</title>
+  <title>Login - Ahmad</title>
   <meta
     name="description"
-    content="Sign in to your ETHKL account to access your orders, wishlist, and exclusive offers."
+    content="Sign in to your Ahmad account to access your orders, wishlist, and exclusive offers."
   />
 </svelte:head>
 
@@ -30,7 +30,7 @@
     <!-- Header -->
     <div class="text-center">
       <h1 class="text-3xl font-bold text-secondary mb-2">Welcome Back</h1>
-      <p class="text-gray-600">Sign in to your ETHKL account</p>
+      <p class="text-gray-600">Sign in to your Ahmad account</p>
     </div>
 
     <!-- Login Form -->

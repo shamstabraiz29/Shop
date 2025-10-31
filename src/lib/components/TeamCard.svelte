@@ -1,14 +1,15 @@
-<script>
-  import { Linkedin, Instagram, Mail } from 'lucide-svelte';
+<script lang="ts">
+  import { Linkedin, Instagram, Mail, User } from 'lucide-svelte';
 
-  export let name;
-  export let role;
-  export let email;
-  export let linkedinUrl = undefined;
-  export let instagramUrl = undefined;
-  export let avatarEmoji = undefined;
-  export let avatarSrc = undefined;
-  export let blurb = undefined;
+  export let name: string;
+  export let role: string;
+  export let email: string;
+  export let linkedinUrl: string | undefined = undefined;
+  export let instagramUrl: string | undefined = undefined;
+  export let avatarEmoji: string | undefined = undefined;
+  export let avatarSrc: string | undefined = undefined;
+  export let AvatarIcon: any = undefined; // Svelte component from lucide-svelte
+  export let blurb: string | undefined = undefined;
   export let ringFrom = 'from-primary';
   export let ringTo = 'to-secondary';
 </script>
@@ -37,8 +38,16 @@
               alt={name}
               class="h-full w-full object-cover"
             />
+          {:else if AvatarIcon}
+            <svelte:component
+              this={AvatarIcon}
+              size={48}
+              class="text-secondary"
+            />
+          {:else if avatarEmoji}
+            <span class="text-3xl">{avatarEmoji}</span>
           {:else}
-            <span class="text-3xl">{avatarEmoji ?? '👤'}</span>
+            <User size={48} class="text-secondary" />
           {/if}
         </div>
       </div>

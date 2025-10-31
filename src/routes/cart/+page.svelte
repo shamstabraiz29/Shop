@@ -119,10 +119,10 @@
 </script>
 
 <svelte:head>
-  <title>Shopping Cart - ETHKL</title>
+  <title>Shopping Cart - Ahmad</title>
   <meta
     name="description"
-    content="Review your items and proceed to checkout at ETHKL."
+    content="Review your items and proceed to checkout at Ahmad."
   />
 </svelte:head>
 

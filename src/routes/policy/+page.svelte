@@ -5,10 +5,10 @@
 </script>
 
 <svelte:head>
-  <title>Store Policy - ETHKL</title>
+  <title>Store Policy - Ahmad</title>
   <meta
     name="description"
-    content="Read ETHKL's store policies including terms of service, privacy policy, and customer guidelines."
+    content="Read Ahmad's store policies including terms of service, privacy policy, and customer guidelines."
   />
 </svelte:head>
 
@@ -80,7 +80,7 @@
         <div>
           <h3 class="text-xl font-semibold mb-2">1. Acceptance of Terms</h3>
           <p>
-            By accessing and using the ETHKL website, you accept and agree to be
+            By accessing and using the Ahmad website, you accept and agree to be
             bound by the terms and provision of this agreement. If you do not
             agree to abide by the above, please do not use this service.
           </p>
@@ -89,7 +89,7 @@
           <h3 class="text-xl font-semibold mb-2">2. Use License</h3>
           <p class="mb-2">
             Permission is granted to temporarily download one copy of the
-            materials on ETHKL's website for personal, non-commercial transitory
+            materials on Ahmad's website for personal, non-commercial transitory
             viewing only. This is the grant of a license, not a transfer of
             title, and under this license you may not:
           </p>
@@ -293,7 +293,7 @@
         <div>
           <h3 class="text-xl font-semibold mb-2">Our Commitment</h3>
           <p>
-            ETHKL is committed to ensuring digital accessibility for all users,
+            Ahmad is committed to ensuring digital accessibility for all users,
             including those with disabilities. We strive to provide a website
             that is accessible to the widest possible audience, regardless of
             technology or ability.
@@ -315,9 +315,9 @@
           <p>
             If you encounter any accessibility barriers on our website, please
             contact us at <a
-              href="mailto:accessibility@ethkl.com"
+              href="mailto:accessibility@ahmad.com"
               class="underline text-primary hover:text-secondary"
-              >accessibility@ethkl.com</a
+              >accessibility@ahmad.com</a
             >. We welcome your feedback and will work to address any issues
             promptly.
           </p>
@@ -340,7 +340,7 @@
     }}
     secondaryButton={{
       label: 'Email Support',
-      href: 'mailto:support@ethkl.com',
+      href: 'mailto:support@ahmad.com',
       variant: 'outline',
       size: 'md',
     }}

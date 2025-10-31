@@ -71,7 +71,7 @@
     },
     {
       category: 'products',
-      question: 'How do I care for my ETHKL items?',
+      question: 'How do I care for my Ahmad items?',
       answer:
         "Care instructions are provided on each product's care label. Generally, we recommend machine washing in cold water, gentle cycle, and air drying or low heat tumble dry. Avoid bleach and iron on high heat unless specified.",
     },
@@ -110,10 +110,10 @@
 </script>
 
 <svelte:head>
-  <title>FAQ - ETHKL</title>
+  <title>FAQ - Ahmad</title>
   <meta
     name="description"
-    content="Find answers to frequently asked questions about ETHKL fashion store, including orders, shipping, returns, and more."
+    content="Find answers to frequently asked questions about Ahmad fashion store, including orders, shipping, returns, and more."
   />
 </svelte:head>
 
@@ -125,7 +125,7 @@
         Frequently Asked Questions
       </h1>
       <p class="text-lg text-white/90 text-center mt-4 max-w-2xl mx-auto">
-        Find answers to common questions about shopping with ETHKL
+        Find answers to common questions about shopping with Ahmad
       </p>
     </div>
   </section>
@@ -234,7 +234,7 @@
     }}
     secondaryButton={{
       label: 'Email Support',
-      href: 'mailto:support@ethkl.com',
+      href: 'mailto:support@ahmad.com',
       variant: 'outline',
       size: 'md',
     }}

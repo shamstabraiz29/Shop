@@ -20,13 +20,13 @@
       links: [
         {
           text: 'Instagram',
-          href: 'https://instagram.com/ethkl',
+          href: 'https://instagram.com/ahmad',
           external: true,
         },
-        { text: 'Twitter', href: 'https://twitter.com/ethkl', external: true },
+        { text: 'Twitter', href: 'https://twitter.com/ahmad', external: true },
         {
           text: 'Facebook',
-          href: 'https://facebook.com/ethkl',
+          href: 'https://facebook.com/ahmad',
           external: true,
         },
         { text: 'Contact', href: '/contact' },
@@ -122,7 +122,7 @@
   <!-- Copyright Bar -->
   <div class="bg-secondary py-4 text-center px-4 lg:px-0">
     <p class="text-white text-sm">
-      © 2025 ETHKL. Created with passion and precision by
+      © 2025 Ahmad. Created with passion and precision by
       <a
         href="https://www.linkedin.com/in/shamstabraizbaig/"
         target="_blank"

@@ -1,7 +1,7 @@
 <script lang="ts">
   // About page
   import ValueCard from '$lib/components/ValueCard.svelte';
-  import { Gem, Leaf, HeartHandshake } from 'lucide-svelte';
+  import { Gem, Leaf, HeartHandshake, User, Crown, Code } from 'lucide-svelte';
   import TeamCard from '$lib/components/TeamCard.svelte';
   import storyMain from '$lib/assets/images/w-3.jpeg';
   import storyMen from '$lib/assets/images/m-2.jpeg';
@@ -12,10 +12,10 @@
 </script>
 
 <svelte:head>
-  <title>About Us - ETHKL</title>
+  <title>About Us - Ahmad</title>
   <meta
     name="description"
-    content="Learn about ETHKL's mission to provide quality fashion for everyone. Discover our story and values."
+    content="Learn about Ahmad's mission to provide quality fashion for everyone. Discover our story and values."
   />
 </svelte:head>
 
@@ -24,7 +24,7 @@
   <section class="bg-linear-to-r from-primary to-secondary py-16 lg:py-24">
     <div class="mx-auto max-w-[92%] lg:max-w-[75%]">
       <h1 class="text-4xl lg:text-5xl font-bold text-white text-center">
-        About ETHKL
+        About Ahmad
       </h1>
       <p class="text-lg text-white/90 text-center mt-4 max-w-2xl mx-auto">
         Discover our story, mission, and commitment to bringing you the best in
@@ -46,7 +46,7 @@
             >
           </h2>
           <p class="text-lg text-gray-600 leading-relaxed mb-5">
-            ETHKL began as a family passion project with a simple belief: great
+            Ahmad began as a family passion project with a simple belief: great
             style should feel effortless and be within reach. From a
             neighborhood boutique to a global storefront, our journey has been
             fueled by community and craftsmanship.
@@ -85,7 +85,7 @@
           >
             <img
               src={storyMain}
-              alt="ETHKL collection"
+              alt="Ahmad collection"
               class="h-full w-full object-cover"
             />
             <div
@@ -164,7 +164,7 @@
   <section class="py-16 lg:py-24">
     <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div class="text-center mb-12">
-        <SectionBadge text="People behind ETHKL" />
+        <SectionBadge text="People behind Ahmad" />
         <h2 class="text-3xl lg:text-4xl font-bold text-secondary">
           Meet Our Team
         </h2>
@@ -175,29 +175,33 @@
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         <TeamCard
-          name="Sarah Johnson"
-          role="Founder & CEO"
-          email="hello@ethkl.com"
-          avatarEmoji="👩"
-          blurb="Passionate about fashion and customer experience; leads with empathy and clarity."
+          name="Ahmed Beyaz"
+          role="CEO"
+          email="ahmed@ahmad.com"
+          AvatarIcon={Crown}
+          blurb="Visionary leader driving Ahmad's strategic direction and ensuring exceptional customer experience across all channels."
           ringFrom="from-primary"
           ringTo="to-secondary"
         />
         <TeamCard
-          name="Michael Chen"
-          role="Head of Design"
-          email="design@ethkl.com"
-          avatarEmoji="👨"
-          blurb="Crafts cohesive collections and elevates product quality through details."
+          name="Munawar Hayat"
+          role="Co-founder"
+          email="munawarhayat746@gmail.com"
+          linkedinUrl="https://www.linkedin.com/in/munawar-hayat-900ba8360/"
+          instagramUrl="https://www.instagram.com/munawar_.hayat?utm_source=qr&igsh=cjBudGZ3dTJ0Z3lt"
+          AvatarIcon={User}
+          blurb="Co-founder dedicated to building strong partnerships and fostering sustainable growth in the fashion industry."
           ringFrom="from-secondary"
           ringTo="to-primary"
         />
         <TeamCard
-          name="Emily Rodriguez"
-          role="Customer Success Manager"
-          email="support@ethkl.com"
-          avatarEmoji="👩"
-          blurb="Champions seamless experiences and builds long-term customer relationships."
+          name="Shams Tabraiz Baig"
+          role="Lead Developer & IT Architect"
+          email="shamstabraizbaig@gmail.com"
+          linkedinUrl="https://www.linkedin.com/in/shamstabraizbaig/"
+          instagramUrl="https://www.instagram.com/n3kores/"
+          AvatarIcon={Code}
+          blurb="Full-stack developer responsible for building and maintaining the entire e-commerce platform and all IT infrastructure, ensuring seamless digital experiences."
           ringFrom="from-primary"
           ringTo="to-secondary"
         />
@@ -219,7 +223,7 @@
     }}
     secondaryButton={{
       label: 'Email Support',
-      href: 'mailto:support@ethkl.com',
+      href: 'mailto:support@ahmad.com',
       variant: 'outline',
       size: 'md',
     }}

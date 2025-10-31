@@ -102,10 +102,10 @@
 </script>
 
 <svelte:head>
-  <title>Pakistani Men's Clothing - ETHKL</title>
+  <title>Pakistani Men's Clothing - Ahmad</title>
   <meta
     name="description"
-    content="Shop authentic Pakistani men's clothing at ETHKL — kurtas, casual shirts, and formal wear. Nationwide delivery in Pakistan."
+    content="Shop authentic Pakistani men's clothing at Ahmad — kurtas, casual shirts, and formal wear. Nationwide delivery in Pakistan."
   />
 </svelte:head>
 

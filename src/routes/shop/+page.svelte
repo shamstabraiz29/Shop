@@ -144,10 +144,10 @@
 </script>
 
 <svelte:head>
-  <title>Shop All Products - ETHKL</title>
+  <title>Shop All Products - Ahmad</title>
   <meta
     name="description"
-    content="Browse our complete collection of fashion items for men and women at ETHKL."
+    content="Browse our complete collection of fashion items for men and women at Ahmad."
   />
 </svelte:head>
 
