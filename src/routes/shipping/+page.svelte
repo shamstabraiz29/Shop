@@ -128,73 +128,77 @@
       <h2 class="text-3xl font-bold text-secondary text-center mb-12">
         Order Processing
       </h2>
-      <div class="relative">
-        <div
-          class="absolute hidden md:block left-6 top-0 h-full w-1 bg-linear-to-b from-primary via-secondary to-primary/20 rounded-full"
-        ></div>
-        <ol class="space-y-10">
-          <li class="flex items-start relative">
-            <div
-              class="z-10 shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-md"
-            >
-              <Mail class="w-6 h-6 text-white" />
-            </div>
-            <div class="ml-6">
-              <h3 class="text-lg font-semibold text-gray-600 mb-1">
-                Order Placed
-              </h3>
-              <p class="text-gray-600">
-                You'll receive an order confirmation email immediately after
-                placing your order.
-              </p>
-            </div>
-          </li>
-          <li class="flex items-start relative">
-            <div
-              class="z-10 shrink-0 w-12 h-12 rounded-full bg-secondary flex items-center justify-center shadow-md"
-            >
-              <Cog class="w-6 h-6 text-white" />
-            </div>
-            <div class="ml-6">
-              <h3 class="text-lg font-semibold text-gray-600 mb-1">
-                Processing
-              </h3>
-              <p class="text-gray-600">
-                We prepare your order for shipment within 1-2 business days.
-              </p>
-            </div>
-          </li>
-          <li class="flex items-start relative">
-            <div
-              class="z-10 shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-md"
-            >
-              <Truck class="w-6 h-6 text-white" />
-            </div>
-            <div class="ml-6">
-              <h3 class="text-lg font-semibold text-gray-600 mb-1">Shipped</h3>
-              <p class="text-gray-600">
-                Your order is shipped and you'll receive tracking information
-                via email.
-              </p>
-            </div>
-          </li>
-          <li class="flex items-start relative">
-            <div
-              class="z-10 shrink-0 w-12 h-12 rounded-full bg-secondary flex items-center justify-center shadow-md"
-            >
-              <Home class="w-6 h-6 text-white" />
-            </div>
-            <div class="ml-6">
-              <h3 class="text-lg font-semibold text-gray-600 mb-1">
-                Delivered
-              </h3>
-              <p class="text-gray-600">
-                Your order arrives at your doorstep. Enjoy your new Ahmad
-                pieces!
-              </p>
-            </div>
-          </li>
-        </ol>
+      <div class="relative flex justify-center">
+        <div class="relative max-w-2xl w-full">
+          <div
+            class="absolute hidden md:block left-6 top-0 h-full w-1 bg-linear-to-b from-primary via-secondary to-primary/20 rounded-full"
+          ></div>
+          <ol class="space-y-10">
+            <li class="flex items-start relative">
+              <div
+                class="z-10 shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-md"
+              >
+                <Mail class="w-6 h-6 text-white" />
+              </div>
+              <div class="ml-6">
+                <h3 class="text-lg font-semibold text-gray-600 mb-1">
+                  Order Placed
+                </h3>
+                <p class="text-gray-600">
+                  You'll receive an order confirmation email immediately after
+                  placing your order.
+                </p>
+              </div>
+            </li>
+            <li class="flex items-start relative">
+              <div
+                class="z-10 shrink-0 w-12 h-12 rounded-full bg-secondary flex items-center justify-center shadow-md"
+              >
+                <Cog class="w-6 h-6 text-white" />
+              </div>
+              <div class="ml-6">
+                <h3 class="text-lg font-semibold text-gray-600 mb-1">
+                  Processing
+                </h3>
+                <p class="text-gray-600">
+                  We prepare your order for shipment within 1-2 business days.
+                </p>
+              </div>
+            </li>
+            <li class="flex items-start relative">
+              <div
+                class="z-10 shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center shadow-md"
+              >
+                <Truck class="w-6 h-6 text-white" />
+              </div>
+              <div class="ml-6">
+                <h3 class="text-lg font-semibold text-gray-600 mb-1">
+                  Shipped
+                </h3>
+                <p class="text-gray-600">
+                  Your order is shipped and you'll receive tracking information
+                  via email.
+                </p>
+              </div>
+            </li>
+            <li class="flex items-end relative">
+              <div
+                class="z-10 shrink-0 w-12 h-12 rounded-full bg-secondary flex items-center justify-center shadow-md"
+              >
+                <Home class="w-6 h-6 text-white" />
+              </div>
+              <div class="ml-6">
+                <h3 class="text-lg font-semibold text-gray-600 mb-1">
+                  Delivered
+                </h3>
+                <p class="text-gray-600">
+                  Your order arrives at your doorstep. Enjoy your new Ahmad
+                  pieces!
+                </p>
+              </div>
+            </li>
+          </ol>
+        </div>
       </div>
     </div>
   </section>
