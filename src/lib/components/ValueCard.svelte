@@ -5,7 +5,7 @@
   export let borderClass: string = 'border-primary/90 hover:border-primary/70';
   export let iconBgClass: string = 'bg-linear-to-tr from-primary to-secondary';
   export let titleClass: string = 'text-primary';
-  export let heightClass: string = 'min-h-[410px]';
+  export let heightClass: string = 'min-h-[320px]';
   // iconWrapperClass kept for backward compatibility but not used in new design
   export let iconWrapperClass: string = 'shadow-xl border-4 border-white';
 
@@ -19,7 +19,7 @@
 </script>
 
 <div
-  class={`group w-full ${heightClass} rounded-3xl p-8 lg:p-10 flex flex-col items-center relative overflow-hidden transition-all duration-700 ease-out hover:scale-[1.02] hover:-translate-y-2`}
+  class={`group w-full ${heightClass} rounded-3xl p-5 lg:p-7 flex flex-col items-center relative overflow-hidden transition-all duration-700 ease-out hover:scale-[1.02] hover:-translate-y-2`}
   style="background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
           backdrop-filter: blur(20px);
           border: 1px solid rgba(173, 99, 68, 0.1);

@@ -136,7 +136,6 @@
           borderClass="border-primary/90 hover:border-primary/70"
           iconBgClass="bg-linear-to-tr from-primary to-secondary"
           titleClass="text-primary"
-          heightClass="min-h-[410px]"
         />
         <ValueCard
           title="Sustainability"
@@ -145,7 +144,6 @@
           borderClass="border-secondary/90 hover:border-secondary/70"
           iconBgClass="bg-linear-to-tr from-secondary to-primary/80"
           titleClass="text-secondary"
-          heightClass="min-h-[410px]"
         />
         <ValueCard
           title="Customer Care"
@@ -154,7 +152,6 @@
           borderClass="border-primary/90 hover:border-primary/70"
           iconBgClass="bg-linear-to-tr from-secondary to-primary/80"
           titleClass="text-primary"
-          heightClass="min-h-[410px]"
         />
       </div>
     </div>
