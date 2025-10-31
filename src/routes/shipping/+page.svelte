@@ -70,7 +70,7 @@
 
   <!-- Shipping Information -->
   <section class="my-24">
-    <div class="relative mx-auto max-w-[75%]">
+    <div class="relative mx-auto lg:max-w-[75%] max-w-[92%]">
       <!-- Section Title -->
       <div class="flex justify-center">
         <SectionBadge text="Shipping" />
