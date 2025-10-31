@@ -58,7 +58,7 @@
 <main class="min-h-screen bg-white">
   <!-- Page Header -->
   <section class="bg-linear-to-r from-primary to-secondary py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <h1 class="text-4xl lg:text-5xl font-bold text-white text-center">
         Shipping & Returns
       </h1>
@@ -70,7 +70,7 @@
 
   <!-- Shipping Information -->
   <section class="my-24">
-    <div class="relative max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="relative mx-auto max-w-[75%]">
       <!-- Section Title -->
       <div class="flex justify-center">
         <SectionBadge text="Shipping" />
@@ -121,7 +121,7 @@
 
   <!-- Order Processing Modern Timeline -->
   <section class="my-24 py-24 bg-gray-50">
-    <div class="max-w-2xl mx-auto px-6 lg:px-12">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div class="flex justify-center">
         <SectionBadge text="Processing Timeline" />
       </div>
@@ -201,7 +201,7 @@
 
   <!-- Returns Policy -->
   <section class="my-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div class="flex justify-center">
         <SectionBadge text="Returns" />
       </div>

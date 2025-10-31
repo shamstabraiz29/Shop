@@ -154,7 +154,7 @@
 <main class="min-h-screen bg-white">
   <!-- Page Header -->
   <section class="bg-linear-to-r from-primary to-secondary py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <h1 class="text-4xl lg:text-5xl font-bold text-white text-center">
         Shop All Products
       </h1>
@@ -167,7 +167,7 @@
 
   <!-- Filters and Search -->
   <section class="py-12">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div
         class="rounded-2xl border border-gray-200/60 bg-white shadow-sm p-4 md:p-5"
       >
@@ -248,7 +248,7 @@
 
   <!-- Products Grid -->
   <section class="pb-16 lg:pb-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       {#if isLoading}
         <div
           class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"

@@ -128,7 +128,7 @@
 
 <main>
   <section class="py-16 lg:py-24 bg-gradient-to-br from-gray-50 to-gray-100">
-    <div class="max-w-7xl mx-auto px-6 lg:px-0">
+    <div class="mx-auto max-w-[92%] lg:max-w-[75%]">
       <!-- Page Header -->
       <div class="mb-8">
         <h1 class="text-3xl font-bold text-secondary">Shopping Cart</h1>
@@ -234,7 +234,7 @@
   </section>
   {#if $cart.items.length > 0}
     <!-- Recommended Products -->
-    <section class="max-w-7xl mx-auto px-6 lg:px-0 py-16 lg:py-24">
+    <section class="mx-auto max-w-[75%] py-16 lg:py-24">
       <h2 class="text-3xl font-bold text-secondary mb-8">
         You Might Also Like
       </h2>

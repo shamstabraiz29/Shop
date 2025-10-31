@@ -152,11 +152,11 @@
     ></div>
   </div>
 
-  <div class="max-w-7xl mx-auto px-6 lg:px-0 relative">
+  <div class="mx-auto max-w-[75%] relative">
     <!-- Section Header -->
     <div class="text-center mb-16">
       <h2
-        class="text-4xl lg:text-6xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent mb-4"
+        class="text-3xl lg:text-6xl font-bold bg-gradient-to-r from-slate-800 to-slate-600 bg-clip-text text-transparent mb-4"
       >
         Discover Our Collections
       </h2>

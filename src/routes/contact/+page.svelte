@@ -42,7 +42,7 @@
 
   <!-- Contact Information -->
   <section class="py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-0">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
         <!-- Contact Form -->
         <div>

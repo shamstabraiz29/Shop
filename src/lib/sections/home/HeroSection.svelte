@@ -9,7 +9,7 @@
 <section
   class="relative bg-gradient-to-br from-gray-50 to-gray-100 py-16 lg:py-24"
 >
-  <div class="text-center max-w-7xl mx-auto px-6 lg:px-0">
+  <div class="text-center mx-auto max-w-[92%] lg:max-w-[75%]">
     <h1 class="text-4xl lg:text-6xl font-bold text-secondary mb-6">
       Discover Your Style
     </h1>

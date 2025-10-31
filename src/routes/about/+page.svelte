@@ -22,7 +22,7 @@
 <main class="min-h-screen bg-white">
   <!-- Page Header -->
   <section class="bg-linear-to-r from-primary to-secondary py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="mx-auto max-w-[92%] lg:max-w-[75%]">
       <h1 class="text-4xl lg:text-5xl font-bold text-white text-center">
         About ETHKL
       </h1>
@@ -35,7 +35,7 @@
 
   <!-- Our Story -->
   <section class="py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-0">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
         <div class="order-2 lg:order-1">
           <SectionBadge text="Since 2020" />
@@ -119,7 +119,7 @@
 
   <!-- Our Values -->
   <div class="bg-linear-to-br from-gray-50 to-gray-100">
-    <div class="max-w-7xl mx-auto py-16 lg:py-24 px-6 lg:px-0">
+    <div class=" py-16 lg:py-24 max-w-[92%] lg:max-w-[75%] mx-auto">
       <div class="flex flex-col items-center">
         <SectionBadge text="Company Spirit" />
       </div>
@@ -162,7 +162,7 @@
 
   <!-- Team Section -->
   <section class="py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-0">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div class="text-center mb-12">
         <SectionBadge text="People behind ETHKL" />
         <h2 class="text-3xl lg:text-4xl font-bold text-secondary">

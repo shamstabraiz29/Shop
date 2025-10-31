@@ -37,7 +37,7 @@
 </script>
 
 <section class="relative py-16 lg:py-24 overflow-hidden sm:mx-0">
-  <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-0">
+  <div class="relative z-10 max-w-[92%] lg:max-w-[75%] mx-auto">
     <div class="flex justify-center">
       <SectionBadge text="Featured" />
     </div>

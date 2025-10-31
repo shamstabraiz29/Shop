@@ -112,7 +112,7 @@
 <main class="min-h-screen bg-white">
   <!-- Page Header -->
   <section class="bg-linear-to-r from-primary to-primary/80 py-16 lg:py-24">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="mx-auto max-w-[92%] lg:max-w-[75%]">
       <h1 class="text-4xl lg:text-5xl font-bold text-white text-center">
         Pakistani Men's Clothing
       </h1>
@@ -125,7 +125,7 @@
 
   <!-- Featured Products -->
   <section class="py-16 lg:py-24 bg-gray-50">
-    <div class="max-w-7xl mx-auto px-6 lg:px-12">
+    <div class="max-w-[92%] lg:max-w-[75%] mx-auto">
       <div
         class="flex flex-col sm:flex-row justify-between items-center mb-12 gap-4"
       >

@@ -63,7 +63,7 @@
 
 <header class="w-full">
   <div
-    class="bg-white max-w-[90%] mx-auto w-full py-6 px-6 lg:px-12 flex items-center justify-between"
+    class="bg-white max-w-[90%] mx-auto w-full py-6 flex items-center justify-between"
   >
     <div class="shrink-0">
       <h1 class="text-2xl lg:text-3xl font-bold text-secondary tracking-tight">

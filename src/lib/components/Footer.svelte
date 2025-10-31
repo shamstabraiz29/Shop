@@ -54,7 +54,7 @@
 </script>
 
 <footer class="bg-gradient-to-br from-gray-50 to-gray-100">
-  <div class="max-w-[90%] mx-auto py-16 px-6 lg:px-12">
+  <div class="max-w-[90%] mx-auto py-16">
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
       <!-- Dynamic Footer Sections -->
       {#each footerSections as section}
@@ -120,7 +120,7 @@
     </div>
   </div>
   <!-- Copyright Bar -->
-  <div class="bg-secondary py-4 text-center">
+  <div class="bg-secondary py-4 text-center px-4 lg:px-0">
     <p class="text-white text-sm">
       © 2025 ETHKL. Created with passion and precision by
       <a
