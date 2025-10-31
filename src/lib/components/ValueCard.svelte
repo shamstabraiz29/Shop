@@ -68,7 +68,7 @@
   <!-- Content -->
   <div class="relative z-10 flex flex-col items-center flex-1">
     <h3
-      class={`text-base lg:text-lg font-extrabold ${titleClass} mb-5 text-center group-hover:scale-105 transition-transform duration-300`}
+      class={`text-xl lg:text-2xl font-bold ${titleClass} mb-4 text-center group-hover:scale-105 transition-transform duration-300`}
       style="letter-spacing: -0.02em;"
     >
       {title}
