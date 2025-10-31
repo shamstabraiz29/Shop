@@ -22,27 +22,24 @@
   const returnsCards = [
     {
       icon: RotateCcw,
-      iconClasses:
-        'shrink-0 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10',
+      iconBgClass: 'bg-linear-to-tr from-primary to-secondary',
       title: '30-Day Returns',
       text: 'Return for free within 30 days, unworn with tags attached.',
-      bg: 'background-color:rgba(173,99,68,0.10)',
+      borderColor: 'from-primary',
     },
     {
       icon: Repeat,
-      iconClasses:
-        'shrink-0 inline-flex items-center justify-center w-12 h-12 rounded-full bg-secondary/10',
+      iconBgClass: 'bg-linear-to-tr from-secondary to-primary',
       title: 'Easy Exchanges',
       text: 'Exchange size or color, fast & free—just let us know!',
-      bg: 'background-color:rgba(89,101,82,0.10)',
+      borderColor: 'from-secondary',
     },
     {
       icon: Wallet,
-      iconClasses:
-        'shrink-0 inline-flex items-center justify-center w-12 h-12 rounded-full bg-primary/10',
+      iconBgClass: 'bg-linear-to-tr from-primary to-secondary',
       title: 'Refund Process',
       text: 'Refund issued to your card or as store credit within 5-7 business days.',
-      bg: 'background-color:rgba(173,99,68,0.05)',
+      borderColor: 'from-primary',
     },
   ] as const;
 </script>
@@ -213,26 +210,78 @@
         Returns & Exchanges
       </h2>
 
-      <div class="space-y-8 returns-cards-anim">
-        {#each returnsCards as step, i}
-          <div in:fade={{ delay: 200 + i * 200, duration: 400 }}>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 lg:gap-8">
+        {#each returnsCards as card, i}
+          <div
+            in:fade={{ delay: 200 + i * 150, duration: 500 }}
+            class="returns-card group"
+          >
             <div
-              in:slide={{ delay: 400 + i * 200, duration: 400 }}
-              class="flex items-start gap-4 rounded-xl px-5 py-6"
-              style={step.bg}
+              in:slide={{ delay: 300 + i * 150, duration: 500 }}
+              class="w-full h-full rounded-3xl p-6 lg:p-8 relative overflow-hidden transition-all duration-700 ease-out hover:scale-[1.02] hover:-translate-y-2"
+              style="background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
+                      backdrop-filter: blur(20px);
+                      border: 1px solid rgba(173, 99, 68, 0.1);
+                      box-shadow: 0 8px 32px rgba(0,0,0,0.06), 0 0 0 1px rgba(255,255,255,0.5) inset;"
             >
-              <span class={step.iconClasses}>
-                <svelte:component
-                  this={step.icon}
-                  class="w-7 h-7 {step.icon === Repeat
-                    ? 'text-secondary'
-                    : 'text-primary'}"
-                />
-              </span>
-              <div>
-                <h3 class="text-xl font-bold text-gray-700">{step.title}</h3>
-                <p class="text-gray-500 text-base">{step.text}</p>
+              <!-- Animated background gradient on hover -->
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 ease-out rounded-3xl"
+                style="background: linear-gradient(135deg, rgba(173, 99, 68, 0.03) 0%, rgba(89, 101, 82, 0.03) 100%);"
+              ></div>
+
+              <!-- Decorative corner accent -->
+              <div
+                class={`absolute top-0 right-0 w-20 h-20 ${card.iconBgClass} opacity-5 rounded-bl-full transform translate-x-4 -translate-y-4 group-hover:translate-x-2 group-hover:-translate-y-2 transition-transform duration-700`}
+              ></div>
+
+              <!-- Icon container -->
+              <div class="relative z-10 mb-4">
+                <!-- Outer glow ring -->
+                <div
+                  data-glow
+                  class={`absolute inset-0 ${card.iconBgClass} rounded-2xl blur-xl opacity-30 group-hover:opacity-50 transition-opacity duration-500`}
+                  style="transform: scale(1.2);"
+                ></div>
+
+                <!-- Main icon container -->
+                <div
+                  class={`relative flex items-center justify-center w-16 h-16 rounded-2xl ${card.iconBgClass} shadow-lg group-hover:shadow-2xl transition-all duration-500 transform group-hover:scale-110 group-hover:-rotate-3`}
+                  style="box-shadow: 0 10px 40px rgba(173, 99, 68, 0.3), 0 0 0 1px rgba(255,255,255,0.2) inset;"
+                >
+                  <!-- Inner shine effect -->
+                  <div
+                    class="absolute inset-0 rounded-2xl opacity-20"
+                    style="background: linear-gradient(135deg, rgba(255,255,255,0.4) 0%, transparent 50%);"
+                  ></div>
+
+                  <svelte:component
+                    this={card.icon}
+                    class="w-8 h-8 text-white relative z-10 transform group-hover:scale-110 transition-transform duration-500"
+                  />
+                </div>
               </div>
+
+              <!-- Content -->
+              <div class="relative z-10 flex flex-col flex-1">
+                <h3
+                  class="text-lg lg:text-xl font-bold text-primary mb-2 group-hover:scale-105 transition-transform duration-300"
+                  style="letter-spacing: -0.02em;"
+                >
+                  {card.title}
+                </h3>
+                <p
+                  class="text-xs lg:text-sm text-gray-700 font-normal leading-relaxed"
+                  style="letter-spacing: 0.01em;"
+                >
+                  {card.text}
+                </p>
+              </div>
+
+              <!-- Bottom accent line -->
+              <div
+                class={`absolute bottom-0 left-0 right-0 h-1 bg-linear-to-r ${card.borderColor} to-transparent transform scale-x-0 group-hover:scale-x-100 transition-transform duration-700 ease-out origin-center rounded-b-3xl opacity-60`}
+              ></div>
             </div>
           </div>
         {/each}
@@ -262,16 +311,20 @@
 </main>
 
 <style>
-  /* Modern hover animation for Returns & Exchanges cards */
-  .returns-cards-anim > div > div {
-    transition:
-      transform 0.3s cubic-bezier(0.23, 1, 0.32, 1),
-      box-shadow 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  /* Subtle glow animation for returns cards icons */
+  @keyframes pulse-glow {
+    0%,
+    100% {
+      opacity: 0.3;
+      transform: scale(1.2);
+    }
+    50% {
+      opacity: 0.5;
+      transform: scale(1.25);
+    }
   }
-  .returns-cards-anim > div > div:hover {
-    transform: translateY(-4px) scale(1.035);
-    box-shadow:
-      0 8px 24px 0 rgba(80, 80, 110, 0.1),
-      0 1.5px 4px 0 rgba(80, 80, 100, 0.08);
+
+  .returns-card.group:hover [data-glow] {
+    animation: pulse-glow 2s ease-in-out infinite;
   }
 </style>
