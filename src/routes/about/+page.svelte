@@ -196,12 +196,12 @@
         />
         <TeamCard
           name="Shams Tabraiz Baig"
-          role="Lead Developer & IT Architect"
+          role="Co-founder & IT Architect"
           email="shamstabraizbaig@gmail.com"
           linkedinUrl="https://www.linkedin.com/in/shamstabraizbaig/"
           instagramUrl="https://www.instagram.com/n3kores/"
           AvatarIcon={Code}
-          blurb="Full-stack developer responsible for building and maintaining the entire e-commerce platform and all IT infrastructure, ensuring seamless digital experiences."
+          blurb="Co-founder and full-stack developer responsible for building and maintaining the entire e-commerce platform and all IT infrastructure, ensuring seamless digital experiences."
           ringFrom="from-primary"
           ringTo="to-secondary"
         />
